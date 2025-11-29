@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Iphone Calculator Simulator</title>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="screen"><span class="operation big"></span>
+                <div class="result"></div>
+            </div>
+            <ul class="buttons">
+                <li class="row first">
+                <li onclick="clear()" class="btn gray delAll">C</li>
+                <li onclick="appendToDisplay('/')" class="btn gray">/</li>
+                <li onclick="appendToDisplay('%')" class="btn gray">%</li>
+                <li onclick="appendToDisplay('/')" class="btn orange">÷</li>
+                </li>
+                <li class="row second">
+                <li onclick="appendToDisplay('7')" class="btn tran">7</li>
+                <li onclick="appendToDisplay('8')" class="btn tran">8</li>
+                <li onclick="appendToDisplay('9')" class="btn tran">9</li>
+                <li onclick="appendToDisplay('*')" class="btn orange">×</li>
+                </li>
+                <li class="row third">
+                <li onclick="appendToDisplay('4')" class="btn tran">4</li>
+                <li onclick="appendToDisplay('5')" class="btn tran">5</li>
+                <li onclick="appendToDisplay('6')" class="btn tran">6</li>
+                <li onclick="appendToDisplay('-')" class="btn orange">-</li>
+                </li>
+                <li class="row fourth">
+                <li onclick="appendToDisplay('1')" class="btn tran">1</li>
+                <li onclick="appendToDisplay('2')" class="btn tran">2</li>
+                <li onclick="appendToDisplay('3')" class="btn tran">3</li>
+                <li onclick="appendToDisplay('+')" class="btn orange plus">+</li>
+                </li>
+                <li class="row fifth">
+                <li onclick="appendToDisplay('0')" class="btn tran zero"><span>0</span></li>
+                <li onclick="appendToDisplay('.')" class="btn tran">.</li>
+                <li onclick="calc()" class="btn orange">=</li>
+                </li>
+            </ul>
+        </div>
+    </center>
+    <script src="/script.js"></script>
+</body>
+
+</html>

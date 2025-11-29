@@ -1,0 +1,101 @@
+:root {
+  --orange-color: #ffa212;
+  --gray-color: #616164;
+  --transparent-color: #313133;
+}
+
+body {
+  background-color: #ddd;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+  position: relative;
+  background-color: #080808;
+  width: 370px;
+  height: 560px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.screen {
+  background-color: blac;
+  height: 110px;
+  width: 370px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 110px;
+  gap: 7px;
+  width: 100%;
+  left: -23px;
+}
+
+.row {
+  position: absolute;
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.gray {
+  background-color: var(--gray-color);
+}
+.orange {
+  background-color: var(--orange-color);
+  color: white;
+}
+.tran {
+  background-color: var(--transparent-color);
+  color: white;
+}
+
+.zero {
+  width: 140px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.zero span {
+  position: absolute;
+  left: 30px;
+}
+
+.operation {
+font-size: 22px;
+    color: #a9a9a9;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+.screen .operation.big {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  top: 45px;
+}
+
+.result {
+  color: white;
+  font-size: 54px;
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  top: 40px;
+}
